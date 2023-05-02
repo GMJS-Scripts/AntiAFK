@@ -15,6 +15,8 @@ ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(
 ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Ativo"
 ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;
 local bb=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
+--game:service'Players'.LocalPlayer.Idled:connect(function()
+while wait(25) do
 bb:CaptureController()bb:ClickButton2(Vector2.new())
-ab.Text="Sucesso"wait(2)ab.Text="Status : Ativo"end)
+ab.Text="Sucesso em ImpedirKick"wait(2)ab.Text="Status : Ativo"end)
+end
