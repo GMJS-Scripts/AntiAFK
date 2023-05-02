@@ -1,0 +1,5 @@
+wait(0.5)
+local bb=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+bb:CaptureController()bb:ClickButton2(Vector2.new())
+print("AntiAFK/Kick success")wait(1)print("Reactivating AntiAFK")wait(1)print("AntiAFK successfully reactivated")end)
