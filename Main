@@ -19,4 +19,3 @@ local bb=game:service'VirtualUser'
 while wait(25) do
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Sucesso em ImpedirKick"wait(2)ab.Text="Status : Ativo"end)
-end
