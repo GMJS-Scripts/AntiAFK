@@ -1,3 +1,11 @@
+        wait(1)
+            OrionLib:MakeNotification({
+            Name = "AntiAFK",
+            Content = "Status : Active",
+            Image = "rbxassetid://4483345998",
+            Time = 2
+
+        })
         local bb=game:service'VirtualUser'
         game:service'Players'.LocalPlayer.Idled:connect(function()
         bb:CaptureController()bb:ClickButton2(Vector2.new())
@@ -7,7 +15,8 @@
             Image = "rbxassetid://4483345998",
             Time = 3
         })
-        wait(2)        OrionLib:MakeNotification({
+        wait(2)
+            OrionLib:MakeNotification({
             Name = "AntiAFK",
             Content = "Status : Active",
             Image = "rbxassetid://4483345998",
